@@ -1,0 +1,33 @@
+.menu {
+  @include center-flex;
+  font-size: 16px;
+
+  &__results {
+    flex: 1;
+    @include title-font;
+  }
+
+  &__label {
+    @include center-flex;
+  }
+
+  &__select {
+    padding: 0 1.25rem;
+
+    & + & {
+      padding-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .menu {
+    font-size: 14px;
+    &__results {
+      font-size: 14px;
+    }
+    &__label {
+      display: none;
+    }
+  }
+}

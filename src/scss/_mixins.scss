@@ -1,0 +1,22 @@
+@mixin gap($value) {
+  margin-left: $value;
+  margin-right: $value;
+
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@mixin title-font($size: 16px) {
+  font-family: "Baskerville Display PT";
+  font-size: $size;
+  color: $full-black;
+}
+
+@mixin center-flex {
+  display: flex;
+  align-items: center;
+}

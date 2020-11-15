@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .a {
+        fill: #bbbbba;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>Checked-Icon-Undo</title>
+  <path class="a" d="M0,0H20V20H0V0ZM3.53,8.94,2.11,10.35l5.5,5.5L17.89,5.57,16.47,4.15,7.61,13Z" transform="translate(0 0)"/>
+</svg>

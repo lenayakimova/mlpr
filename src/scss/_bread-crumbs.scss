@@ -1,0 +1,18 @@
+.bread-crumbs {
+  display: flex;
+  margin-top: 1em;
+  font-size: 12px;
+
+  &__link {
+    color: $grey1;
+    text-decoration: underline;
+
+    &:hover {
+      color: $full-black;
+    }
+  }
+
+  &__separator {
+    margin: 0 9px;
+  }
+}

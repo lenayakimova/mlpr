@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+  <defs>
+    <style>
+      .a {
+        fill: #cba052;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>Put-In-Bag-Normal</title>
+  <path class="a" d="M6.84,5.78V4.64a4.66,4.66,0,0,1,9.32,0V5.78h5.78l.44.42L23,21.54l-.44.46H.44L0,21.54.62,6.2l.44-.42Zm14.56,1H1.6L1,21H22L21.4,6.78Zm-13.56-1h7.32V4.64a3.66,3.66,0,0,0-7.32,0V5.78Z" transform="translate(0 0)"/>
+</svg>

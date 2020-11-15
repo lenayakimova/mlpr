@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/myselect.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/myselect.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="bread-crumbs">
+      <a href="/" class="bread-crumbs__link">Главная</a>
+      <span class="bread-crumbs__separator">/</span>
+      <span class="bread-crumbs__text">Ювелирные украшения</span>
+    </nav>
+
+    <main class="main">
+      <h2 class="title">Ювелиные украшения</h2>
+
+      <ul class="categories">
+        <li class="categories__item"><a href=""><img src="icons/Ring-01.jpg" alt="" class="categories__image"><span
+            class="categories__text">Кольца</span></a></li>
+        <li class="categories__item"><a href=""><img src="https://via.placeholder.com/50" alt="" class="categories__image"><span
+            class="categories__text">Серьги</span></a></li>
+        <li class="categories__item"><a href=""><img src="https://via.placeholder.com/50" alt="" class="categories__image"><span
+            class="categories__text">Подвески</span></a></li>
+        <li class="categories__item"><a href=""><img src="https://via.placeholder.com/50" alt="" class="categories__image"><span
+            class="categories__text">Колье и Ожерелья</span></a></li>
+        <li class="categories__item"><a href=""><img src="https://via.placeholder.com/50" alt="" class="categories__image"><span
+            class="categories__text">Браслеты</span></a></li>
+        <li class="categories__item"><a href=""><img src="https://via.placeholder.com/50" alt="" class="categories__image"><span
+            class="categories__text">Броши</span></a></li>
+      </ul>
+
+      <div class="row">
+        <section class="filter">
+          <div class="filter__tools">
+            <h3 class="filter__title">Выбранные критерии</h3>
+            <a class="filter__clear">Очистить все</a>
+          </div>
+
+          <form class="filter__filters"></form>
+
+          <div class="filter__search">
+            <input type="search" data-role="search" placeholder="Поиск в Ювелирных украшениях">
+            <img src="icons/Search-Icon.svg" alt="">
+          </div>
+
+          <div class="filter__item filter-group" data-filter="category" data-method="category">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Категория</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row filter-group__back"><span>Вернуться к <span data-value></span></span></div>
+              <div class="filter-group__list selected">
+                <div class="filter-group__row"><span>Ювелирные украшения</span><span
+                    class="filter-group__count">1257</span></div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Кольца</span><span class="filter-group__count">614</span></div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Другие кольца</span><span
+                        class="filter-group__count">123</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Помолвочные кольца</span><span
+                        class="filter-group__count">113</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Обручальные кольца</span><span
+                        class="filter-group__count">91</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Коктейльные кольца</span><span
+                        class="filter-group__count">76</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Кольца-солитеры</span><span
+                        class="filter-group__count">68</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Фантазийные кольца</span><span
+                        class="filter-group__count">54</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Перстни</span><span class="filter-group__count">45</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Печатки</span><span class="filter-group__count">17</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Кольца-кастеты</span><span class="filter-group__count">9</span>
+                    </div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Кластерные кольца</span><span
+                        class="filter-group__count">7</span></div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Кольца-вензеля</span><span class="filter-group__count">7</span>
+                    </div>
+                  </div>
+                  <div class="filter-group__list">
+                    <div class="filter-group__row"><span>Кольца вечности</span><span
+                        class="filter-group__count">4</span></div>
+                  </div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Серьги</span><span class="filter-group__count">356</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Подвески</span><span class="filter-group__count">96</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Колье и ожерелья</span><span
+                      class="filter-group__count">84</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Другие украшения</span><span
+                      class="filter-group__count">65</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Браслеты</span><span class="filter-group__count">16</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Броши</span><span class="filter-group__count">13</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Запонки</span><span class="filter-group__count">8</span></div>
+                </div>
+                <div class="filter-group__list">
+                  <div class="filter-group__row"><span>Зажимы для галстуков</span><span
+                      class="filter-group__count">5</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="price" data-method="price">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Цена</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <label class="radio">Любая цена<input type="radio" name="price"><span></span></label>
+              <label class="radio">До 50,000 RUB<input type="radio" name="price"><span></span></label>
+              <label class="radio">50,000 RUB – 100,000 RUB<input type="radio" name="price"><span></span></label>
+              <label class="radio">100,000 RUB – 250,000 RUB<input type="radio" name="price"><span></span></label>
+              <label class="radio">250,000 RUB – 500,000 RUB<input type="radio" name="price"><span></span></label>
+              <label class="radio">500,000 RUB – 1,000,000 RUB<input type="radio" name="price"><span></span></label>
+              <label class="radio">1,000,000 RUB и выше<input type="radio" name="price"><span></span></label>
+              <div class="filter-group__inputs-group">
+                <div class="input-group">
+                  <input class="input-group__input" type="text" required>
+                  <label class="input-group__label">Мин., RUB</label>
+                </div>
+                <span class="filter-group__dash">-</span>
+                <div class="input-group">
+                  <input class="input-group__input" type="text" required>
+                  <label class="input-group__label">Макс., RUB</label>
+                </div>
+                <a class="filter-group__but" data-role="add">
+                  <i class="icon"
+                    style="--img: url('../icons/Arrow-Right-Icon.svg');--img-hover: url('../icons/Arrow-Right-Icon-White.svg');"></i>
+                </a>
+              </div>
+              <div class="filter-group__row">
+                <label class="checkbox">Скидка<input type="checkbox" name="discount"><span></span></label>
+                <span class="filter-group__count">117</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="creator" data-method="withSearch">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Создатель</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter__search">
+                <input type="search" data-role="search" placeholder="Поиск">
+                <img src="icons/Search-Icon.svg" alt="">
+              </div>
+              <div class="filter-group__hiddens">
+                <div class="filter-group__row"><label class="checkbox">MOISEIKIN<input type="checkbox"><span></span></label><span class="filter-group__count">58</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="create_date" data-method="withMore">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Период создания</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row"><label class="checkbox">XXI век<input type="checkbox"><span></span></label><span class="filter-group__count">932</span></div>
+              <div class="filter-group__row"><label class="checkbox">2010-е<input type="checkbox"><span></span></label><span class="filter-group__count">517</span></div>
+              <div class="filter-group__row"><label class="checkbox">2020-е<input type="checkbox"><span></span></label><span class="filter-group__count">207</span></div>
+              <div class="filter-group__row"><label class="checkbox">2000-е<input type="checkbox"><span></span></label><span class="filter-group__count">134</span></div>
+              <div class="filter-group__row"><label class="checkbox">XX век<input type="checkbox"><span></span></label><span class="filter-group__count">325</span></div>
+              <div class="filter-group__additionals">
+                <div class="filter-group__row"><label class="checkbox">Конец XX века<input type="checkbox"><span></span></label><span class="filter-group__count">225</span></div>
+                <div class="filter-group__row"><label class="checkbox">1990-е<input type="checkbox"><span></span></label><span class="filter-group__count">93</span></div>
+                <div class="filter-group__row"><label class="checkbox">1980-е<input type="checkbox"><span></span></label><span class="filter-group__count">54</span></div>
+                <div class="filter-group__row"><label class="checkbox">1970-е<input type="checkbox"><span></span></label><span class="filter-group__count">23</span></div>
+              </div>
+              <a class="filter-group__more">Показать</a>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="sex" data-method="withMore">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Пол</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row"><label class="checkbox">Женский<input type="checkbox"><span></span></label><span class="filter-group__count">744</span></div>
+              <div class="filter-group__row"><label class="checkbox">Унисекс<input type="checkbox"><span></span></label><span class="filter-group__count">426</span></div>
+              <div class="filter-group__row"><label class="checkbox">Мужской<input type="checkbox"><span></span></label><span class="filter-group__count">57</span></div>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="style" data-method="withMore">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Стиль</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row"><label class="checkbox">Современный<input type="checkbox"><span></span></label><span class="filter-group__count">317</span></div>
+              <div class="filter-group__row"><label class="checkbox">Актуальный<input type="checkbox"><span></span></label><span class="filter-group__count">122</span></div>
+              <div class="filter-group__row"><label class="checkbox">Ретро<input type="checkbox"><span></span></label><span class="filter-group__count">107</span></div>
+              <div class="filter-group__row"><label class="checkbox">Ар-деко<input type="checkbox"><span></span></label><span class="filter-group__count">85</span></div>
+              <div class="filter-group__row"><label class="checkbox">Эклектика<input type="checkbox"><span></span></label><span class="filter-group__count">74</span></div>
+              <div class="filter-group__additionals">
+                <div class="filter-group__row"><label class="checkbox">Флористика<input type="checkbox"><span></span></label><span class="filter-group__count">68</span></div>
+                <div class="filter-group__row"><label class="checkbox">Винтажный<input type="checkbox"><span></span></label><span class="filter-group__count">54</span></div>
+                <div class="filter-group__row"><label class="checkbox">Минимализм<input type="checkbox"><span></span></label><span class="filter-group__count">50</span></div>
+                <div class="filter-group__row"><label class="checkbox">Модерн<input type="checkbox"><span></span></label><span class="filter-group__count">41</span></div>
+                <div class="filter-group__row"><label class="checkbox">Византийский<input type="checkbox"><span></span></label><span class="filter-group__count">33</span></div>
+                <div class="filter-group__row"><label class="checkbox">Русский<input type="checkbox"><span></span></label><span class="filter-group__count">27</span></div>
+                <div class="filter-group__row"><label class="checkbox">Ампир<input type="checkbox"><span></span></label><span class="filter-group__count">11</span></div>
+                <div class="filter-group__row"><label class="checkbox">Этнический<input type="checkbox"><span></span></label><span class="filter-group__count">9</span></div>
+                <div class="filter-group__row"><label class="checkbox">Геометрический<input type="checkbox"><span></span></label><span class="filter-group__count">7</span></div>
+                <div class="filter-group__row"><label class="checkbox">Викторианский<input type="checkbox"><span></span></label><span class="filter-group__count">5</span></div>
+              </div>
+              <a class="filter-group__more">Показать</a>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="metal" data-method="withSearch">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Металл</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row"><label class="checkbox">Золото<input type="checkbox"><span></span></label><span class="filter-group__count">1179</span></div>
+              <div class="filter-group__row"><label class="checkbox">Золото 585 пробы<input type="checkbox"><span></span></label><span class="filter-group__count">884</span></div>
+              <div class="filter-group__row"><label class="checkbox">Золото 750 пробы<input type="checkbox"><span></span></label><span class="filter-group__count">245</span></div>
+              <div class="filter-group__row"><label class="checkbox">Золото Белое-деко<input type="checkbox"><span></span></label><span class="filter-group__count">354</span></div>
+              <div class="filter-group__row"><label class="checkbox">Серебро<input type="checkbox"><span></span></label><span class="filter-group__count">28</span></div>
+              <div class="filter__search">
+                <input type="search" data-role="search" placeholder="Поиск металла">
+                <img src="icons/Search-Icon.svg" alt="">
+              </div>
+              <div class="filter-group__hiddens">
+                <div class="filter-group__row"><label class="checkbox">Платина<input type="checkbox"><span></span></label><span class="filter-group__count">18</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="stone" data-method="withSearch">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Камень</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row"><label class="checkbox">Бриллинат<input type="checkbox"><span></span></label><span class="filter-group__count">640</span></div>
+              <div class="filter-group__row"><label class="checkbox">Бриллинат белый<input type="checkbox"><span></span></label><span class="filter-group__count">613</span></div>
+              <div class="filter-group__row"><label class="checkbox">Сапфир<input type="checkbox"><span></span></label><span class="filter-group__count">110</span></div>
+              <div class="filter-group__row"><label class="checkbox">Рубин<input type="checkbox"><span></span></label><span class="filter-group__count">55</span></div>
+              <div class="filter-group__row"><label class="checkbox">Изумруд<input type="checkbox"><span></span></label><span class="filter-group__count">14</span></div>
+              <div class="filter__search">
+                <input type="search" data-role="search" placeholder="Поиск камня">
+                <img src="icons/Search-Icon.svg" alt="">
+              </div>
+              <div class="filter-group__hiddens">
+                <div class="filter-group__row"><label class="checkbox">Жемчуг<input type="checkbox"><span></span></label><span class="filter-group__count">55</span></div>
+                <div class="filter-group__row"><label class="checkbox">Жемчуг культивированный<input type="checkbox"><span></span></label><span class="filter-group__count">44</span></div>
+                <div class="filter-group__row"><label class="checkbox">Жемчуг барочный<input type="checkbox"><span></span></label><span class="filter-group__count">11</span></div>
+                <div class="filter-group__row"><label class="checkbox">Жемчуг Южных морей<input type="checkbox"><span></span></label><span class="filter-group__count">9</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter__item filter-group" data-filter="manipul" data-method="withSearch">
+            <div class="filter-group__header">
+              <span class="filter-group__label">Огранка</span>
+              <i class="icon filter-group__arrow"
+                style="--img: url('../icons/Arrow-Down-Icon.svg'); --img-expanded: url('../icons/Arrow-Up-Icon.svg');"></i>
+            </div>
+            <div class="filter-group__body">
+              <div class="filter-group__row"><label class="checkbox">Круглая<input type="checkbox"><span></span></label><span class="filter-group__count">810</span></div>
+              <div class="filter-group__row"><label class="checkbox">Бриллиантовая<input type="checkbox"><span></span></label><span class="filter-group__count">75</span></div>
+              <div class="filter-group__row"><label class="checkbox">Кабошон<input type="checkbox"><span></span></label><span class="filter-group__count">63</span></div>
+              <div class="filter-group__row"><label class="checkbox">Изумрудная<input type="checkbox"><span></span></label><span class="filter-group__count">57</span></div>
+              <div class="filter-group__row"><label class="checkbox">Смешанная<input type="checkbox"><span></span></label><span class="filter-group__count">45</span></div>
+              <div class="filter__search">
+                <input type="search" data-role="search" placeholder="Поиск огранки">
+                <img src="icons/Search-Icon.svg" alt="">
+              </div>
+              <div class="filter-group__hiddens">
+                <div class="filter-group__row"><label class="checkbox">Маркиз<input type="checkbox"><span></span></label><span class="filter-group__count">14</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="products">
+          <section class="menu">
+            <span class="menu__results">Результатов: 1257</span>
+            <label class="menu__label">Сортировать по</label>
+            <div class="menu__select">
+              <select name="search_criteria" id="search_criteria" class="select" width=220>
+                <option>Популярность</option>
+                <option>Сначала новинки</option>
+                <option>Возрастание цены</option>
+                <option>Убывание цены</option>
+              </select>
+            </div>
+            <div class="menu__select">
+              <select name="items_on_page" id="items_on_page" class="select" width=220>
+                <option>30 на странице</option>
+                <option>60 на странице</option>
+                <option>120 на странице</option>
+              </select>
+            </div>
+
+            <div class="menu__pagination pagination">
+              <a class="pagination__but">
+                <img src="./icons/Arrow-Left-Normal.svg">
+              </a>
+              <input type="text" class="pagination__current" value="1">
+              <a class="pagination__but">
+                <img src="./icons/Arrow-Right-Normal.svg">
+              </a>
+              <span class="pagination__range">из 42</span>
+            </div>
+          </section>
+
+          <div class="products__list">
+            <div class="products__item product">
+              <div class="product__slider slider">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Left-Normal.svg" alt="" class="arrow">
+                </a>
+                <img src="icons/Ring-01.jpg" alt="" class="slider__img">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Right-Normal.svg" alt="" class="arrow">
+                </a>
+              </div>
+              <span class="product__label">Кольцо MOISEIKIN, «Цветущий миндаль», бриллианты, турмалины, розовые сапфиры, жемчуг кеши, золото 750 пробы</span>
+              <span class="product__price">1 325 000 руб.</span>
+              <a href="" class="product__more">Смотреть подробнее</a>
+              <div class="product__tools">
+                <a class="product__tools__item">
+                  <i class="icon like"
+                    style="--img: url('../icons/Favorite-Icon-Normal.svg'); --img-hover: url('../icons/Favorite-Icon-Hover-Active.svg')"></i>
+                </a>
+                <a class="product__tools__item">
+                  <i class="icon basket"
+                    style="--img: url('../icons/Put-In-Bag-Normal.svg'); --img-hover: url('../icons/Put-In-Bag-Hover-Active.svg')"></i>
+                </a>
+              </div>
+            </div>
+            <div class="products__item product">
+              <div class="product__slider slider">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Left-Normal.svg" alt="" class="arrow">
+                </a>
+                <img src="icons/Ring-01.jpg" alt="" class="slider__img">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Right-Normal.svg" alt="" class="arrow">
+                </a>
+              </div>
+              <span class="product__label">Кольцо MOISEIKIN, «Цветущий миндаль», бриллианты, турмалины, розовые сапфиры, жемчуг кеши, золото 750 пробы</span>
+              <span class="product__price">1 325 000 руб.</span>
+              <a href="" class="product__more">Смотреть подробнее</a>
+              <div class="product__tools">
+                <a class="product__tools__item">
+                  <i class="icon like"
+                    style="--img: url('../icons/Favorite-Icon-Normal.svg'); --img-hover: url('../icons/Favorite-Icon-Hover-Active.svg')"></i>
+                </a>
+                <a class="product__tools__item">
+                  <i class="icon basket"
+                    style="--img: url('../icons/Put-In-Bag-Normal.svg'); --img-hover: url('../icons/Put-In-Bag-Hover-Active.svg')"></i>
+                </a>
+              </div>
+            </div>
+            <div class="products__item product">
+              <div class="product__slider slider">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Left-Normal.svg" alt="" class="arrow">
+                </a>
+                <img src="icons/Ring-01.jpg" alt="" class="slider__img">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Right-Normal.svg" alt="" class="arrow">
+                </a>
+              </div>
+              <span class="product__label">Кольцо MOISEIKIN, «Цветущий миндаль», бриллианты, турмалины, розовые сапфиры, жемчуг кеши, золото 750 пробы</span>
+              <span class="product__price">1 325 000 руб.</span>
+              <a href="" class="product__more">Смотреть подробнее</a>
+              <div class="product__tools">
+                <a class="product__tools__item">
+                  <i class="icon like"
+                    style="--img: url('../icons/Favorite-Icon-Normal.svg'); --img-hover: url('../icons/Favorite-Icon-Hover-Active.svg')"></i>
+                </a>
+                <a class="product__tools__item">
+                  <i class="icon basket"
+                    style="--img: url('../icons/Put-In-Bag-Normal.svg'); --img-hover: url('../icons/Put-In-Bag-Hover-Active.svg')"></i>
+                </a>
+              </div>
+            </div>
+            <div class="products__item product">
+              <div class="product__slider slider">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Left-Normal.svg" alt="" class="arrow">
+                </a>
+                <img src="icons/Ring-01.jpg" alt="" class="slider__img">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Right-Normal.svg" alt="" class="arrow">
+                </a>
+              </div>
+              <span class="product__label">Кольцо MOISEIKIN, «Цветущий миндаль», бриллианты, турмалины, розовые сапфиры, жемчуг кеши, золото 750 пробы</span>
+              <span class="product__price">1 325 000 руб.</span>
+              <a href="" class="product__more">Смотреть подробнее</a>
+              <div class="product__tools">
+                <a class="product__tools__item">
+                  <i class="icon like"
+                    style="--img: url('../icons/Favorite-Icon-Normal.svg'); --img-hover: url('../icons/Favorite-Icon-Hover-Active.svg')"></i>
+                </a>
+                <a class="product__tools__item">
+                  <i class="icon basket"
+                    style="--img: url('../icons/Put-In-Bag-Normal.svg'); --img-hover: url('../icons/Put-In-Bag-Hover-Active.svg')"></i>
+                </a>
+              </div>
+            </div>
+            <div class="products__item product">
+              <div class="product__slider slider">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Left-Normal.svg" alt="" class="arrow">
+                </a>
+                <img src="icons/Ring-01.jpg" alt="" class="slider__img">
+                <a class="slider__arrow">
+                  <img src="icons/Arrow-Right-Normal.svg" alt="" class="arrow">
+                </a>
+              </div>
+              <span class="product__label">Кольцо MOISEIKIN, «Цветущий миндаль», бриллианты, турмалины, розовые сапфиры, жемчуг кеши, золото 750 пробы</span>
+              <span class="product__price">1 325 000 руб.</span>
+              <a href="" class="product__more">Смотреть подробнее</a>
+              <div class="product__tools">
+                <a class="product__tools__item">
+                  <i class="icon like"
+                    style="--img: url('../icons/Favorite-Icon-Normal.svg'); --img-hover: url('../icons/Favorite-Icon-Hover-Active.svg')"></i>
+                </a>
+                <a class="product__tools__item">
+                  <i class="icon basket"
+                    style="--img: url('../icons/Put-In-Bag-Normal.svg'); --img-hover: url('../icons/Put-In-Bag-Hover-Active.svg')"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="products__pagination pagination">
+            <a class="pagination__but">
+              <img src="./icons/Arrow-Left-Normal.svg">
+            </a>
+            <input type="text" class="pagination__current" value="1">
+            <a class="pagination__but">
+              <img src="./icons/Arrow-Right-Normal.svg">
+            </a>
+            <span class="pagination__range">из 42</span>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="scroll-top">
+      <div class="scroll-top__background"></div>
+      <div class="scroll-top__content">
+        <img src="icons/Arrow-Top-Button.svg">
+        <span>Вверх</span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

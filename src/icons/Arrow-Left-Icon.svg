@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="17" viewBox="0 0 9 17">
+  <defs>
+    <style>
+      .a {
+        fill: #222;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>Arrow-Left-Icon</title>
+  <polygon class="a" points="9 0.72 1.4 8.5 9 16.28 8.3 17 0 8.5 8.3 0 9 0.72"/>
+</svg>

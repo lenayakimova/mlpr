@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("../fonts/ProximaNova-Semibold.eot");
+  src: url("../fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNova-Semibold.woff") format("woff"),
+    url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Baskerville Display PT";
+  src: url("../fonts/BaskervilleDisplayPT-Bold.eot");
+  src: url("../fonts/BaskervilleDisplayPT-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/BaskervilleDisplayPT-Bold.woff2") format("woff2"),
+    url("../fonts/BaskervilleDisplayPT-Bold.woff") format("woff"),
+    url("../fonts/BaskervilleDisplayPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,30 @@
+.input-group {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+
+  &__input {
+    width: 100%;
+    height: 2rem;
+    padding: 5px 12px 2px;
+  }
+
+  &__label {
+    position: absolute;
+    pointer-events: none;
+    left: 12px;
+    top: 0;
+    width: calc(100% - 13px);
+    line-height: 2rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+
+  &__input:focus ~ &__label,
+  &__input:not(:focus):valid ~ &__label {
+    top: -12px;
+    font-size: 10px;
+  }
+}

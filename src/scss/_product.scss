@@ -1,0 +1,54 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: #{'calc(100% / 3 - 1rem)'};
+  height: 400px;
+  padding: 0.75rem;
+  border: 1px solid $grey4;
+  font-size: 13px;
+
+  &__slider {
+    margin: 2rem 0.5rem;
+  }
+
+  &__label {
+    font-family: "Proxima Nova Semibold";
+  }
+
+  &__price {
+    flex: 1;
+    margin-top: 0.75rem;
+  }
+
+  &__more {
+    align-self: flex-end;
+    text-decoration: underline;
+  }
+
+  &__tools {
+    position: absolute;
+    right: 0.75rem;
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      &:not(:first-child) {
+        margin-top: 0.5rem;
+      }
+
+      .icon {
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+  }
+
+  &:not(:hover) {
+    .slider__arrow,
+    .product__more {
+      display: none;
+    }
+    border-color: transparent;
+  }
+}

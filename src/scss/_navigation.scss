@@ -1,0 +1,22 @@
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3px 0;
+  border-bottom: 1px solid $full-black;
+
+  &__link {
+    text-transform: uppercase;
+    font-size: 16px;
+    @include gap(1rem);
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $violet;
+    }
+
+    &.selected {
+      color: $gold;
+      text-decoration-color: currentColor;
+    }
+  }
+}

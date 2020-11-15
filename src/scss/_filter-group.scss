@@ -1,0 +1,143 @@
+.filter-group {
+  &__header {
+    @include center-flex;
+    padding: 1.5rem 0.5rem;
+    cursor: pointer;
+  }
+
+  &__label {
+    flex: 1;
+    font-family: "Proxima Nova Semibold";
+    text-transform: uppercase;
+  }
+
+  &__arrow {
+    width: 17px;
+    height: 9px;
+
+    .expanded & {
+      background-image: var(--img-expanded);
+    }
+  }
+
+  [data-filter="category"] &__body {
+    margin-bottom: 0.75rem;
+  }
+
+  &__dash {
+    margin: 0 2px;
+  }
+
+  &__inputs-group {
+    @include center-flex;
+    margin: 1rem 0;
+
+    input {
+      border: 1px solid $grey3;
+
+      &:focus {
+        border-color: $full-black;
+      }
+    }
+
+    a {
+      @include center-flex;
+      justify-content: center;
+      flex: 0 0 2rem;
+      height: 2rem;
+      margin-left: 0.5rem;
+      border: 1px solid $full-black;
+
+      &:hover {
+        background-color: currentColor;
+
+        .icon {
+          background-image: var(--img-hover);
+        }
+      }
+
+      .icon {
+        width: 9px;
+        height: 17px;
+      }
+    }
+  }
+
+  &__row {
+    display: flex;
+
+    [data-filter="category"] &,
+    .filter-group__hiddens & {
+      margin-bottom: 0.25rem;
+
+      .filter-group__hiddens &:last-child {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    & > :first-child {
+      flex: 1;
+      cursor: pointer;
+    }
+  }
+
+  &__list {
+    &:not(.selected) > &:not(.selected) > :first-child,
+    .filter-group__body > &:not(.selected) > :first-child {
+      display: none;
+    }
+
+    &.selected > :first-child :first-child {
+      font-weight: bold;
+    }
+  }
+
+  &__back:not(.show) {
+    display: none;
+  }
+
+  &__more {
+    display: block;
+    margin-bottom: 0.75rem;
+    text-decoration: underline;
+
+    &:after {
+      content: " больше";
+    }
+
+    .filter-group__body.expanded &:after {
+      content: " меньше";
+    }
+  }
+
+  &__body:not(.expanded) &__additionals,
+  &__hiddens > *:not(.show) {
+    display: none;
+  }
+
+  &__count {
+    color: $grey1;
+  }
+
+  .filter__search {
+    margin-top: 0;
+  }
+
+  &__hiddens {
+    .checkbox {
+      padding-left: 0;
+
+      :last-child {
+        display: none;
+      }
+    }
+
+    :not(:hover) {
+      color: $grey2;
+    }
+  }
+
+  &:not(.expanded) &__body {
+    display: none;
+  }
+}

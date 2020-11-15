@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+  <defs>
+    <style>
+      .a {
+        fill: #cba052;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>Put-In-Bag-Hover-Active</title>
+  <path class="a" d="M1.06,5.78H6.84V4.64a4.66,4.66,0,0,1,9.32,0V5.78h5.78l.44.42L23,21.54l-.44.46H.44L0,21.54.62,6.2l.44-.42Zm6.66,0h7.56V4.64a3.78,3.78,0,0,0-7.56,0V5.78Z"/>
+</svg>

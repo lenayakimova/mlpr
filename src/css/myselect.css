@@ -1,0 +1,122 @@
+.reset {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 112px;
+	cursor: pointer;
+}
+
+.reset:before,
+.reset:after {
+	top: -28px;
+	position: absolute;
+	content: " ";
+	height: 13px;
+	width: 1px;
+	background-color: #d9d9d9;
+}
+.reset:before {
+	transform: rotate(45deg);
+}
+.reset:after {
+	transform: rotate(-45deg);
+}
+
+.select {
+	position: relative;
+	width: 155px;
+}
+
+.select .select__content__wrapper {
+	position: absolute;
+	top: 40px;
+	width: inherit;
+	border: 1px solid #222222;
+	overflow-y: scroll;
+	opacity: 0;
+	z-index: 1;
+}
+
+.select[data-state="active"] .select__title::before {
+	transform: translate(-4px, -50%) rotate(-45deg);
+}
+
+.select[data-state="active"] .select__title::after {
+	transform: translate(4px, -50%) rotate(45deg);
+}
+
+.select[data-state="active"] .select__content__wrapper {
+	opacity: 1;
+}
+
+.select[data-state="active"] .select__label {
+	max-height: 40px;
+	border-top-width: 1px;
+}
+
+.select__title {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 12px;
+	border: solid 1px #d9d9d9;
+	cursor: pointer;
+}
+
+.select:focus {
+	border: 1px solid #222222;
+}
+
+.select__title::before,
+.select__title::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	display: block;
+	width: 12px;
+	height: 1px;
+	transition: all 0.3s ease-out;
+	background-color: #222222;
+	transform: translate(-5px, -50%) rotate(45deg);
+}
+
+.select__title::after {
+	transform: translate(3px, -50%) rotate(-45deg);
+}
+
+.select__title::before,
+.select__title::after {
+	background-color: #222222;
+}
+
+.select__content {
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+	transition: all 0.3s ease-out;
+	z-index: 8;
+}
+
+.select__label[data-selected="selected"] {
+	font-weight: bold;
+}
+
+.select__label {
+	display: flex;
+	align-items: center;
+	/*width: 123px;*/
+	height: 40px;
+	max-height: 0px;
+	padding-left: 15px;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+	overflow: hidden;
+	font-family: "Proxima Nova Light", sans-serif;
+	color: #222222;
+	margin-bottom: 0;
+}
+
+.select__label:hover {
+	background-color: #e6d2eb;
+}

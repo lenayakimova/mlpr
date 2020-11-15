@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22">
+  <defs>
+    <style>
+      .a {
+        fill: #cba052;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>Favorite-Icon-Hover-Active</title>
+  <path class="a" d="M22.18,1.78a6,6,0,0,1,.34,8.28L12.33,22h-.66L1.48,10.06a6,6,0,0,1,.34-8.28,6.32,6.32,0,0,1,8.79,0A6.13,6.13,0,0,1,12,3.86a6.13,6.13,0,0,1,1.39-2.08,6.32,6.32,0,0,1,8.79,0Z" transform="translate(0)"/>
+</svg>

@@ -1,0 +1,22 @@
+.slider {
+  position: relative;
+  text-align: center;
+
+  &__img {
+    margin: auto;
+    width: #{'min(210px, 15vw)'};
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &:first-child {
+      left: 0;
+    }
+    &:last-child {
+      right: 0;
+    }
+  }
+}

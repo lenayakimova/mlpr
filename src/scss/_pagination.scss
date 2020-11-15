@@ -1,0 +1,31 @@
+.pagination {
+  @include center-flex;
+
+  &__but,
+  &__current {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 12px 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  &__but {
+    background: $grey4;
+
+    img {
+      width: 9px;
+      height: 17px;
+    }
+  }
+
+  &__current {
+    margin: 0 0.5rem;
+    border: 1px solid $grey4;
+    font-size: inherit;
+  }
+
+  &__range {
+    margin-left: 0.75rem;
+  }
+}
